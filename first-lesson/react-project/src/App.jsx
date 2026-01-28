@@ -4,6 +4,8 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Box from "./components/Box";
 import Lab from "./components/Lab";
+import ShoppingList from "./components/ShoppingList";
+
 //1
 
 // function App(){
@@ -34,10 +36,11 @@ function App(){
   return(
   <Box>
 
-      <Lab></Lab>
+      {/* <Lab></Lab>
       <Header name = "Aurik"/>
       <Main react = "React"/>
-      <Footer p = "Четко"/>
+      <Footer p = "Четко"/> */}
+      <ShoppingList></ShoppingList>
       
   </Box>    
   )

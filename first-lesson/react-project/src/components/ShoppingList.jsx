@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Shoppinglist.css"
 
 export default function ShoppingList(){
     const [items, setItems] = useState([])
@@ -68,7 +69,6 @@ return (
     <div>
         <h2>Shopping List</h2>
 
-        {/* Добавление товара */}
         <input
             type="text"
             placeholder="Название товара"
@@ -87,7 +87,6 @@ return (
 
         <button onClick={addItem}>Добавить</button>
 
-        {/* Список товаров */}
         <ul>
             {items.map((item) => (
                 <li key={item.id}>
