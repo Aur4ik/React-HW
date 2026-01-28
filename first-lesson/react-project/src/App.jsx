@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Box from "./components/Box";
+import Lab from "./components/Lab";
 //1
 
 // function App(){
@@ -32,9 +33,12 @@ import Box from "./components/Box";
 function App(){
   return(
   <Box>
+
+      <Lab></Lab>
       <Header name = "Aurik"/>
       <Main react = "React"/>
       <Footer p = "Четко"/>
+      
   </Box>    
   )
 
